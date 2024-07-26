@@ -1,0 +1,58 @@
+.specialities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.specialities  .spCard{
+    width: 300px;
+    padding: 22px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 22px;
+
+    margin-inline: 20px;
+}
+.spCard img{
+    width: 400px;
+}
+.spCard p{
+    margin-top: 11px;
+}
+.reviews{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Start Footer Coding */
+
+footer{
+    width: 100%;
+    background: rgb(70, 69, 69);
+    float: left;
+    color: rgb(243, 244, 245);
+    padding: 30px 0;
+
+}
+
+footer .footer-box{
+    width: 25%;
+    float: left;
+    height: 100%;
+}
+
+footer .footer-box a{
+    display: block;
+    font-family: Gotu;
+    color: rgb(252, 251, 251);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+footer .footer-box a:hover{
+    text-decoration: none;
+    color: rgb(35, 71, 233);
+}
+/* End Footer Coding */
